@@ -1,0 +1,19 @@
+$color1:lightgrey;
+$count1:200px;
+$count2:900px;
+body{
+    max-width: $count2;
+    height: $count2;
+    margin: auto;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .square{
+    background-color: $color1;
+    height: $count1;
+    width: $count1;
+    margin: 12px;
+}
+}
